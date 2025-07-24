@@ -1,0 +1,6 @@
+1. Understand why we are directly able to execute code in classes without creating objects unlike other languages like python or such. In simple words, how does class -> main function directly works.
+
+2. Why List on the left and ArrayList on the Right? -- Answer: Since List is an Interface and since ArrayList is an object of child Concrete Class, we can reference the object of Arraylist to List.
+  --- List<Integer> values = new ArrayList<>();
+
+3.
