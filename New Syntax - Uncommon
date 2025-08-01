@@ -1,9 +1,0 @@
-1. List<String> modifiable = new ArrayList<>(Arrays.asList("e","a","cab","bob")); -- asList is uncommon
-
-2. System.out.println(list.getClass().getName()); -- returns : System.out.println(list.getClass().getName());
-
-3. // converting a list into an array
-      Object[] listToArray = list.toArray();
-      Integer[] listToArray1 = list.toArray(new Integer[0]);
-
-4.

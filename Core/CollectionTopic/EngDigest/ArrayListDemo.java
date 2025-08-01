@@ -1,4 +1,4 @@
-package Core.CollectionTopic.P2CompCmpblPQ.EngDigest;
+package Core.CollectionTopic.EngDigest;
 
 import java.util.ArrayList;
 import java.util.List;
