@@ -12,6 +12,9 @@ package LowLevelDesign.Lession1.Example1.ProblematicCode;
 
  Single Responsibility Principle states that there should be one and only one reason for a piece of code to change
 */
+
+// This code is an example of a Monster class that violates the Single Responsibility Principle (SRP). A monster class is a class that has too many responsibilities, making it difficult to maintain and extend.
+
 public class Employee {
     private final int id;  // Employee ID
     private final String name;  // Employee Name
