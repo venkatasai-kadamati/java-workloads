@@ -26,4 +26,4 @@ List<Integer> values = new ArrayList<>();
 
 **Question:** Learn about Lambda Expressions in Java and how they can be used to simplify code.
 
-**Answer:** __
+**Answer:** Learn Streams API
