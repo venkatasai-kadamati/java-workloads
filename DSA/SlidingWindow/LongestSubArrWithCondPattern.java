@@ -4,10 +4,8 @@ package DSA.SlidingWindow;
 // question: Find the longest subarray and return the length of it, where the condition is satisfied like (sum <= value)
 // Here the windowSize isn't given, rather during final output, we end up returning mostly either the windowSize or elements of that window.
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class LongestSubArrWithCondPattern {
+
     public static void main(String[] args) {
         int[] arr = {2, 5, 1, 7, 10};
         int value = 10;
@@ -16,23 +14,28 @@ public class LongestSubArrWithCondPattern {
         System.out.println("Brute Result: " + bruteResult);
     }
 
-    // Since we need to find the subarray that has sum <= value, we first generate all subarrays and then start checking.
     public static int BruteTemplate(int[] arr, int value) {
-        List<List<Integer>> subArrList = new ArrayList<>();
-
         int n = arr.length;
-        int output = 0;
+        int longestSubarrayLength = 0;
 
+        // Iterate through all possible starting points of a subarray
         for (int subArrStart = 0; subArrStart < n; subArrStart++) {
+            int currentSum = 0;
+            // Iterate through all possible ending points of a subarray
             for (int subArrEnd = subArrStart; subArrEnd < n; subArrEnd++) {
-                List<Integer> currSubArrList = new ArrayList<>();
-                currSubArrList.add(arr[subArrEnd]);
-                subArrList.add(currSubArrList);
+                currentSum += arr[subArrEnd];
+
+                // Check if the current subarray's sum meets the condition
+                if (currentSum <= value) {
+                    // Calculate the length of the current subarray
+                    int currentLength = subArrEnd - subArrStart + 1;
+                    // Update the longestSubarrayLength if the current one is longer
+                    if (currentLength > longestSubarrayLength) {
+                        longestSubarrayLength = currentLength;
+                    }
+                }
             }
-
-            System.out.println("SubArray: " + subArrList);
         }
-
-        return output;
+        return longestSubarrayLength;
     }
 }
