@@ -69,7 +69,7 @@ For sliding window with all arr items as negative
   to initialize it with
 
   ```java
-  maxSum =Integer.MIN_VALUE;
+  maxSum = Integer.MIN_VALUE;
   ```
 
 ## 9. Subarray vs Subsequence
@@ -97,3 +97,18 @@ For sliding window with all arr items as negative
 > The above is valid given for an array [2,5,1,4] - we need to iterate from start to end :
 > - values are : length = 4, valid idx's = 0 to 3.
 > - condition: idx < length
+
+## 12. Why during array value initialization, the specific [1,3,34] is wrong but {1,3,34} is correct?
+
+> This is due to the fact that we try to store a block of elements in our array
+
+> Block refers to functions that have func{}
+
+> Second Reason: To avoid confusion as already [] symbol refers too many things like it can be used for type declaration
+> and indexing and such.
+
+## Test cases to work on while working with Matrix's (2d Arr)
+
+1. n = m (n x n) where n is even
+2. n = m (n x n) where n is odd
+3. n != m (n x m) where n and m are not equal
