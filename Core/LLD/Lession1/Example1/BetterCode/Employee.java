@@ -1,4 +1,4 @@
-package LowLevelDesign.Lession1.Example1.BetterCode;
+package Core.LLD.Lession1.Example1.BetterCode;
 
 // This code is a refactored version of the Employee class that adheres to the Single Responsibility Principle (SRP).
 // The class now focuses solely on representing an employee's data, while other responsibilities such as salary computation, data fetching, and reporting are handled by separate classes or methods.

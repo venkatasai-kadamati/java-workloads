@@ -1,4 +1,4 @@
-package LowLevelDesign.Lession1.Example1.ProblematicCode;
+package Core.LLD.Lession1.Example1.ProblematicCode;
 
 /*
  Issues with this Employee class:

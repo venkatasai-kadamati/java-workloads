@@ -1,4 +1,4 @@
-package LowLevelDesign.Lession1.Example1.BetterCode;
+package Core.LLD.Lession1.Example1.BetterCode;
 
 // This code is a refactored version of the Employee class that adheres to the Single Responsibility Principle (SRP).
 

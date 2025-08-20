@@ -1,5 +1,13 @@
 # Java Learning Notes
 
+## Best Practices
+
+1. variables - always have as less as possible
+
+- The key is if we need them down stream, then assign else ignore.
+- Standard approach to return result is directly return it instead of first storing it and then returning that variable.
+- Always keep declarations and initializations as close as possible to the first usage.
+
 ## 1. Java Packages
 
 In Java, any directory with classes is a package. Never get confused (mix up) with the UI options to create package vs.
@@ -15,7 +23,6 @@ the ith index element, but when passed as Integer.valueOf(3) then it means to re
 System.out.println(values.remove(2));
 
 // remove using Object, remove the first occurrences of the value
-        System.out.
 
 println(values.remove(Integer.valueOf(3)));
 ```
@@ -112,3 +119,4 @@ For sliding window with all arr items as negative
 1. n = m (n x n) where n is even
 2. n = m (n x n) where n is odd
 3. n != m (n x m) where n and m are not equal
+

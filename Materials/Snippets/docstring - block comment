@@ -1,0 +1,19 @@
+--- template (usage ready)
+/**
+     * function use
+     * core thing
+     * edge cases
+     *
+     * @param - inputs
+     * @return - output
+*/
+
+--- example usage (reference only)
+/**
+     * Calculates the diagonal sum of a square matrix in a single pass.
+     * It sums the primary diagonal and the secondary diagonal,
+     * ensuring the central element is not double-counted for odd-dimension matrices.
+     *
+     * @param matrix The square matrix (n x n).
+     * @return The integer sum of its diagonals.
+*/
