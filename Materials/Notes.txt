@@ -1,3 +1,0 @@
-### Java Subarrays, Substrings, and Subsequences
--- Has information on the difference, what types of problems, basic code snippets, approaches, tips.
-https://docs.google.com/document/d/1sZBJ2epbYhHQ9UEYD2AW2-vEp7lr3olCvXT7GWi7BMQ/edit?usp=sharing

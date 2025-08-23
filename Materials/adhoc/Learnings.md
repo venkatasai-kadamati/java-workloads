@@ -120,3 +120,16 @@ For sliding window with all arr items as negative
 2. n = m (n x n) where n is odd
 3. n != m (n x m) where n and m are not equal
 
+## Auto-Boxing and Unboxing
+
+1. auto-boxing and un-boxing
+2. auto-boxing is the concept that helps us convert a primitive into Wrapper class
+3. ex: from primitive char to Wrapper Character
+
+> Character ch = 'a';
+
+the above does the following under the hood:
+> Character ch = Character.valueOf('a');
+
+## indexOf() method for finding string/character index in input
+- Helps find the first occurrence index
