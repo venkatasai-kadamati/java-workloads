@@ -133,3 +133,13 @@ the above does the following under the hood:
 
 ## indexOf() method for finding string/character index in input
 - Helps find the first occurrence index
+
+## Tc of right shift by 1 is always log(n)
+- Reason: Why keep on dividing the number by half
+> Every right shift (nums = nums >> 1) reduces the number by half
+
+
+## 3 Solutions for Max Subarray Sum (Very Imp Pattern)
+1. Brute Force - Tc : O(n3)
+2. Prefix Sum - 
+3. Kadane's Algorithm -

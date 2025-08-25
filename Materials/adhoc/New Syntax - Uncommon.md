@@ -19,4 +19,5 @@ Object[] listToArray = list.toArray();
 Integer[] listToArray1 = list.toArray(new Integer[0]);
 ```
 
-## 4. 
+## 4. Converting String to char array to use foreach iteration
+> StringName.toCharArray();

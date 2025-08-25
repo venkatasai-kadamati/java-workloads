@@ -10,3 +10,9 @@ https://chatgpt.com/share/e/68a9a893-4ad0-800e-a2cc-f288130a4600
 -- note:
 1. convert from deci to binary: toBinaryString()
 2. convert from binary to deci: Integer.parseInt(binary, 2);
+
+-- Comphrehensive Notes of various use cases
+https://chatgpt.com/share/e/68ac095a-3a78-800e-929a-bda4b5a3cebe
+
+
+###
