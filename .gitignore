@@ -1,15 +1,6 @@
 # Compiled class files
 *.class
 
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
 # Package Files
 *.jar
 *.war
@@ -19,36 +10,12 @@
 *.tar.gz
 *.rar
 
-# JVM crash logs
-hs_err_pid*
-replay_pid*
-
 # IntelliJ IDEA
 .idea/
 *.iml
 *.iws
 *.ipr
 out/
-
-# Eclipse
-.classpath
-.project
-.settings/
-bin/
-
-# NetBeans
-nbproject/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-build/
-
-# VS Code
-.vscode/
-
-# Mac
-.DS_Store
 
 # Windows
 Thumbs.db
@@ -75,3 +42,30 @@ build/
 /test-output
 /test
 /temp
+
+# ======================
+# Bazel (ignore output files but keep config files like BUILD, WORKSPACE)
+# ======================
+
+# Bazel output directories
+bazel-*
+**/bazel-*
+
+# Bazel cache & symlinks
+bazel-out/
+bazel-bin/
+bazel-testlogs/
+bazel-workspace/
+bazel-execroot/
+bazel-cache/
+
+# Bazel sandbox/temp
+**/.bazel-sandbox/
+**/.bazel-cache/
+
+# Optional Bazel local config
+.bazelrc.user
+.bazelignore
+
+# You *can keep* BUILD, BUILD.bazel, WORKSPACE, WORKSPACE.bazel, .bazelrc
+# So those are NOT ignored here intentionally

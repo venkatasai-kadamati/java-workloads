@@ -1,0 +1,5 @@
+java_library(
+    name="lib",
+    srcs = ["DependentClass.java"],
+    visibility = ["//visibility:public"],
+)
