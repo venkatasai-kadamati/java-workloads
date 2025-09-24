@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: first-spring-app
+    group: demo
+
+server:
+  port: 8081
