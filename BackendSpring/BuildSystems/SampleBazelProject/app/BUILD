@@ -1,0 +1,5 @@
+java_binary(
+    name = "main",
+    srcs = ["com/example/main/Main.java"],
+    main_class = "com.example.main.Main",
+)
