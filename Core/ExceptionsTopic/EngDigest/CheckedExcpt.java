@@ -1,7 +1,6 @@
 package Core.ExceptionsTopic.EngDigest;
 
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 
 public class CheckedExcpt {
@@ -21,7 +20,7 @@ public class CheckedExcpt {
     }
 
     public static void method1() {
-        FileReader fileReader = new FileReader("a.txt");
+        //FileReader fileReader = new FileReader("a.txt");
     }
 
     public static void method2() throws FileNotFoundException {

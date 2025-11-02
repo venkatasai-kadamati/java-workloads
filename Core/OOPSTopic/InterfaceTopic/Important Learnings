@@ -1,0 +1,17 @@
+1. Interfaces come into play in the following scenarios:
+   - helps with multiple inheritance
+   - define a template of methods that a class must implement
+   - ** when we want to decouple classes. Usually thumb rule is that one class shouldn't depend on another class directly, rather it should depend on an interface that the other class implements. This way we can change the implementation without changing the dependent class. **
+
+2. Inversion of Control (IoC) and Dependency Injection (DI):
+   - In super simple terms, IoC is a broader principle, and DI is a specific pattern to achieve IoC.
+   - Other ways to achieve IoC include Service Locator pattern, Event-driven programming, etc.
+   - IoC is a design principle where the control of object creation and management is transferred from the class itself to an external entity.
+   - DI is a specific implementation of IoC where dependencies are provided to a class from an external source rather than the class creating them itself.
+   - Interfaces play a crucial role in DI by allowing classes to depend on abstractions rather than concrete implementations, promoting flexibility and testability.
+
+2. Resources to learn more about Interfaces:
+   - https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+   - https://www.geeksforgeeks.org/interfaces-in-java/
+   - https://www.javatpoint.com/interface-in-java
+   - https://www.baeldung.com/java-interfaces
