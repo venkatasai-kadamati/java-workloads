@@ -1,7 +1,7 @@
 # Java Workloads
 
 Java learning repository with core concepts, DSA, backend development, and best practices.
-
+-- Had to redo the whole project structure and decided to go ahead with monorepo + multi-module pattern. Extended build automation using gradle.
 ## Repository Structure
 
 **[Core/](./Core)** - Java fundamentals
