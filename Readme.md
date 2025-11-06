@@ -19,8 +19,8 @@ Java learning repository with core concepts, DSA, backend development, and best 
 - [Patterns](./DSA/Patterns) - Pattern programs
 - [Course Materials](./DSA/Courses/ApnaCol) - Structured learning
 
-**[BackendSpring/](./BackendSpring)** - Spring framework
-- [Build Systems](./BackendSpring/BuildSystems) - Build configurations
+**[BackendSpring/](Backend)** - Spring framework
+- [Build Systems](Backend/BuildSystems) - Build configurations
 
 **[Materials/](./Materials)** - Learning resources
 - [Best Practices](./Materials/adhoc/Learnings.md) - Java tips and guidelines
@@ -33,7 +33,7 @@ Java learning repository with core concepts, DSA, backend development, and best 
 1. **Java Basics** → Start with [Core/](./Core)
 2. **Problem Solving** → Practice with [DSA/](./DSA)
 3. **Best Practices** → Read [Learnings.md](./Materials/adhoc/Learnings.md)
-4. **Backend** → Explore [BackendSpring/](./BackendSpring)
+4. **Backend** → Explore [BackendSpring/](Backend)
 
 ## File Naming Conventions
 

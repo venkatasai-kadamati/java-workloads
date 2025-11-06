@@ -1,6 +1,0 @@
-java_binary(
-    name="primary",
-    srcs = ["Main.java", "Summation.java"],
-    main_class = "app.Main",
-    deps = ["//utils:lib"],
-)
