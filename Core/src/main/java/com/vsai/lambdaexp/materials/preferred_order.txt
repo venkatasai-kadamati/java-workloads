@@ -1,0 +1,6 @@
+Revisit in the following order
+First view the notes from ./materials and then touch the following classes
+1. LambdaIntro.java -> Intro to functionalInterfaces, options to create instance of that functionalInterface, wherein lambda's being the easiest option.
+2. LambdaParams.java -> Shows how to take inputs and return value
+3. LambdaCapture.java -> understand what lambda can access and modify .. like instance, local, outside method variables.
+4. LambdaMethodRef.java -> understand how to reference lambdas in methods
