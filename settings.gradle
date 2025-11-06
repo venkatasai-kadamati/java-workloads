@@ -1,0 +1,19 @@
+// define submodules
+rootProject.name = "java_codebase"
+
+// Include core learning modules
+include("core", "dsa", "architecture")
+
+// Include backend microservices (each a separate Gradle module)
+//include(
+//        "backend:p1",
+//        "backend:p2",
+//        "backend:p3",
+//        "backend:shared-lib"
+//)
+//
+//// Include standalone projects
+//include(
+//        "projects:cli-counter",
+//        "projects:url-shortener"
+//)
