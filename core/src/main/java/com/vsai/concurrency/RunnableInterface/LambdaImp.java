@@ -13,7 +13,7 @@ public class LambdaImp {
 
         Runnable r2 = () -> {
             for (int i = 0; i < 10; i++) {
-                System.out.println("runner 1: " + i);
+                System.out.println("runner 2: " + i);
             }
         };
 
