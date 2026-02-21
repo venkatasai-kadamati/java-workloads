@@ -1,4 +1,4 @@
-package DSA.Topicwise.Patterns;
+package com.vsai.topicwise.Patterns;
 
 public class StarPattern {
     // printing pattern : right angle triangle

@@ -2,7 +2,7 @@
 rootProject.name = "java_codebase"
 
 // Include core learning modules
-include("core", "dsa", "architecture")
+include("core", "dsa", "architecture", "backend")
 
 // Include backend microservices (each a separate Gradle module)
 //include(

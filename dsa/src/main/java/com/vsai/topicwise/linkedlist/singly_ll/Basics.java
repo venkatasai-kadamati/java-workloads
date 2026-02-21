@@ -55,7 +55,7 @@ public class Basics {
 
     // Tc: O(N), we literally just traverse the array till end
     public static void traverseLL(Node head) {
-        // traversal
+        // Traversal
         Node curr = head;
         while (curr != null) {
             System.out.print(curr.data + " -> ");
